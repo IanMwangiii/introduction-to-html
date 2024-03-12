@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="menu" id="top-menu">
+        <li class="menu-list" id="top-menu-list">Home</li>
+        <li class="menu-list" id="top-menu-list">About us</li>
+        <li class="menu-list" id="top-menu-list">Services</li>
+        <li class="menu-list" id="top-menu-list">Contact us</li>
+    </ul>
+    <br>
+    <form action="" method="post">
+        <label for="">Full name</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Ian" required/>
+        <label for="">Email</label>
+        <input type="email" name="user-email" id="email-input" placeholder="Ianmwangi@gmail.com" required/>
+        <label for="">Password</label>
+        <input type="password" name="user-password" id="password-input"/>
+        <label for="">Confirm Password</label>
+        <input type="password" name="cpassword" id="cpassword-input"/>
+        <input type="submit" name="Send"/>
+    </form>
+    <br>
+    <table rows="4" cols="2">
+        <tr>
+           <th>Name</th>
+           <th>Email</th>
+        </tr>
+        <tr>
+            <td>Ian Mwangi</td>
+            <td>Ianmwangi@gmail.com</td>
+
+        </tr>
+    </table>
+
+</body>
+<style>
+    .menu{
+        background-color:red;
+        font-size:12px;
+    }
+    #top-menu{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    table, th, td {
+  border: 1px solid black;
+}
+</style>
+</html>
